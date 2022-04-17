@@ -257,9 +257,9 @@ if __name__ == "__main__":
     p.stepSimulation()
     img = env.camera_feed()
     img = np.ascontiguousarray(img, dtype=np.uint8)
-    # cv2.imshow("img-", img)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    cv2.imshow("img-", img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
     last_corr_rotational = None
     last_corr_translation = None
