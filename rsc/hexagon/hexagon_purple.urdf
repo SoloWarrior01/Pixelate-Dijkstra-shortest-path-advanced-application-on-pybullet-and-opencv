@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="Hexagon_purple">
+  
+    <material name="purple">
+      <color rgba="0.333 0.047 0.435 1"/>
+    </material>
+
+    <link name="Untitled">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.001"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="Miniaturebase 20151107-25899-Phehsx-0">
+        <origin xyz="0 0 0" rpy="0 1.57 0.72"/>
+        <geometry>
+          <mesh filename="hexagon.stl" scale="0.3 1 1"/>
+        </geometry>
+        <material name="purple"/>
+      </visual>
+    </link>
+    
+  </robot>

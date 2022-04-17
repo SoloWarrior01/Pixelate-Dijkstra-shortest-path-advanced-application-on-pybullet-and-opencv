@@ -1,0 +1,6 @@
+setup.py
+pixelate_arena.egg-info/PKG-INFO
+pixelate_arena.egg-info/SOURCES.txt
+pixelate_arena.egg-info/dependency_links.txt
+pixelate_arena.egg-info/requires.txt
+pixelate_arena.egg-info/top_level.txt
